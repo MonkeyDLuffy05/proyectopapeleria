@@ -1,0 +1,16 @@
+/*header,
+nav,
+section,
+article,
+footer {
+    margin: 2em;
+    padding: 1em;
+    border: 1px;
+    border-style: solid;
+}*/
+
+body {
+    font-style: inherit;
+    font-size: medium;
+    font-feature-settings: "abvm";
+}

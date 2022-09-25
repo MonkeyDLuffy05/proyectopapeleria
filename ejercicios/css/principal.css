@@ -1,0 +1,42 @@
+p {
+    background-color: black;
+    color: azure;
+    border: 3px;
+    border-style: solid;
+    border-color: greenyellow;
+}
+
+h1 {
+    background-color: black;
+    color: azure;
+    border: 3px;
+    border-style: solid;
+    border-color: greenyellow;
+    padding: 2em;
+}
+
+header {
+    background-color: rgb(79, 11, 238);
+    color: aliceblue;
+    border: 4px;
+    border-style: double;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(238, 166, 11);
+    color: aliceblue;
+    border: 4px;
+    border-style: double;
+    text-align: center;
+}
+
+body {
+    background-color: chartreuse;
+    color: black;
+}
+
+article>img {
+    width: 100px;
+    height: 100px;
+}
