@@ -1,16 +1,76 @@
-/*header,
-nav,
+head {
+    text-align: center;
+    color: black;
+    margin: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+/*nav,
 section,
-article,
+article,*/
+
 footer {
     margin: 2em;
     padding: 1em;
     border: 1px;
     border-style: solid;
-}*/
+}
 
 body {
+    background-image: url(img/depositphotos_58059017-stock-photo-copy-space-with-office-and.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     font-style: inherit;
     font-size: medium;
     font-feature-settings: "abvm";
+}
+
+.text {
+    text-align: center;
+    color: blue;
+    margin: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.factura {
+    table-layout: fixed;
+}
+
+.fact-info>div>h5 {
+    font-weight: bold;
+}
+
+.factura>thead {
+    border-top: solid 3px #000;
+    border-bottom: 3px solid #000;
+}
+
+.factura>thead>tr>th:nth-child(2),
+.factura>tbod>tr>td:nth-child(2) {
+    width: 300px;
+}
+
+.factura>thead>tr>th:nth-child(n+3) {
+    text-align: right;
+}
+
+.factura>tbody>tr>td:nth-child(n+3) {
+    text-align: right;
+}
+
+.factura>tfoot>tr>th,
+.factura>tfoot>tr>th:nth-child(n+3) {
+    font-size: 24px;
+    text-align: right;
+}
+
+.cond {
+    border-top: solid 2px #000;
 }
